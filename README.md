@@ -1,6 +1,6 @@
-# Instalación y Configuración
+# Instalación, configuración y descripción
 
-## Tecnologias usadas
+## Tecnologías usadas
 
 1. Postgres 9
 2. Node 12.18.3
@@ -11,11 +11,11 @@
 1. Clonar el repo.
 
 ```
-git Clone repo
+git clone https://github.com/DubraskaB/nodejs-express-api-oauth-psql 
 ```
 2. Ingresar al directorio que contiene el repo.
 ```
-cd nombre_del_repo
+cd nodejs-express-api-oauth-psql
 ```
 3. Instalar los paquetes de node.
 ```
@@ -85,14 +85,14 @@ grand_type:password
 client_id:null
 client_secret:null
 ``` 
-3. Lista las promociones con OAuth
+3. Lista las promociones con OAuth.
 ```
 POST: http://localhost:3000/api/promotions
 
 Endpoint que responde en formato JSON un listado de promociones con
 información dummy.
 ``` 
-4. Detalle de la promoción con OAuth
+4. Detalle de la promoción con OAuth.
 ```
 POST: http://localhost:3000/api/promotion
 

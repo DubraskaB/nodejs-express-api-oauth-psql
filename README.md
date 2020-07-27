@@ -17,7 +17,7 @@ git Clone repo
 ```
 cd nombre_del_repo
 ```
-3.Instalar los paquetes de node.
+3. Instalar los paquetes de node.
 ```
 npm install
 ``` 
